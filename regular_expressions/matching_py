@@ -1,0 +1,7 @@
+import re
+
+string = "twoo two twooo"
+
+found = re.findall("t[ow]o", string)
+
+print(found)
